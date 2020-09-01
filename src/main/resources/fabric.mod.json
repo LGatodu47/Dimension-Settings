@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "dimsettings",
+  "version": "1.0",
+
+  "name": "Dimension Settings",
+  "description": "A mod that change your video settings depending on the dimension where you are. This mod is disabled by default and should be enabled in the config.",
+  "authors": [
+    "LGatodu47"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/dimsettings/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.lgatodu47.dimsettings.DimensionSettingsInit"
+    ],
+    "client": [
+      "fr.lgatodu47.dimsettings.DimensionSettings"
+    ],
+    "modmenu": [
+      "fr.lgatodu47.dimsettings.util.ModMenuIntegration"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
