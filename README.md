@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Dimension Settings
 
-## Setup
+## How to use :
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+When you install the mod it is recommanded to install Mod Menu. Fabric API is required for this mod to work.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is covered by the All Right Reserved License.
