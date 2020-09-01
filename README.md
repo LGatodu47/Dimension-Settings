@@ -6,4 +6,4 @@ When you install the mod it is recommanded to install Mod Menu. Fabric API is re
 
 ## License
 
-This mod is covered by the All Right Reserved License.
+This mod is covered by the GNU License.
